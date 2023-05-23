@@ -1,11 +1,14 @@
-import React from 'react';
+import React,{useState} from 'react';
 import {RefundPhrase} from '../util/phrases'
 import Footer from './Footer';
 import {AnimationOnScroll} from 'react-animation-on-scroll'
+import { Input } from '@material-ui/core';
 import 'animate.css';
 
-const Refund = () => {
 
+
+const Refund = () => {
+    const [amount, setAmount] = useState("");
     const Policy = [
         {
             header:"Refund Policy",
@@ -42,7 +45,9 @@ const Refund = () => {
                 >   
                         {item.content}
                 </div>
-                
+                <Input value={amount} onChange={(e) => {
+                    setAmount(e.target.value)
+                }}  />
             </div>
             ))}
         <AnimationOnScroll animateIn='animate__fadeInLeftBig' animateOnce={true}>

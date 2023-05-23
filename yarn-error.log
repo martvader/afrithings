@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/bin/node /usr/local/bin/yarn remove @shopify/hydrogen-react
+  /usr/bin/node /usr/local/bin/yarn add @material-ui/core
 
 PATH: 
   /home/martin/.bun/bin:/home/martin/.bun/bin:/home/martin/.bun/bin:/home/martin/.bun/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  Error: EACCES: permission denied, mkdir '/home/martin/Desktop/Project/Afrithings/afrithings/node_modules/@babel/highlight/node_modules/chalk'
+  Error: EACCES: permission denied, mkdir '/home/martin/Desktop/Project/Afrithings/afrithings/node_modules/@babel/highlight/node_modules/ansi-styles'
 
 npm manifest: 
   {
@@ -1292,14 +1292,6 @@ Lockfile:
     resolved "https://registry.npmjs.org/@eslint/js/-/js-8.39.0.tgz"
     integrity sha512-kf9RB0Fg7NZfap83B3QOqOGg9QmD9yBudqQXzzOtn3i4y7ZUXe5ONeW34Gwi+TxhH4mvj72R1Zc300KUMa9Bng==
   
-  "@google/model-viewer@^1.12.1":
-    version "1.12.1"
-    resolved "https://registry.npmjs.org/@google/model-viewer/-/model-viewer-1.12.1.tgz"
-    integrity sha512-GOf/By81rbxSmwWRVxBtlY5b3050msJ+BDWqonPj7M0/I7rNS/vVNjbLxTofbGjZObS3n0ELHj8TZ47UtkZbtg==
-    dependencies:
-      lit "^2.2.3"
-      three "^0.139.2"
-  
   "@humanwhocodes/config-array@^0.11.8":
     version "0.11.8"
     resolved "https://registry.npmjs.org/@humanwhocodes/config-array/-/config-array-0.11.8.tgz"
@@ -1621,18 +1613,6 @@ Lockfile:
     resolved "https://registry.npmjs.org/@leichtgewicht/ip-codec/-/ip-codec-2.0.4.tgz"
     integrity sha512-Hcv+nVC0kZnQ3tD9GVu5xSMR4VVYOteQIr/hwFPVEvPdlXqgGEuRjiheChHgdM+JyqdgNcmzZOX/tnl0JOiI7A==
   
-  "@lit-labs/ssr-dom-shim@^1.0.0", "@lit-labs/ssr-dom-shim@^1.1.0":
-    version "1.1.1"
-    resolved "https://registry.npmjs.org/@lit-labs/ssr-dom-shim/-/ssr-dom-shim-1.1.1.tgz"
-    integrity sha512-kXOeFbfCm4fFf2A3WwVEeQj55tMZa8c8/f9AKHMobQMkzNUfUj+antR3fRPaZJawsa1aZiP/Da3ndpZrwEe4rQ==
-  
-  "@lit/reactive-element@^1.3.0", "@lit/reactive-element@^1.6.0":
-    version "1.6.1"
-    resolved "https://registry.npmjs.org/@lit/reactive-element/-/reactive-element-1.6.1.tgz"
-    integrity sha512-va15kYZr7KZNNPZdxONGQzpUr+4sxVu7V/VG7a8mRfPPXUyhEYj5RzXCQmGrlP3tAh0L3HHm5AjBMFYRqlM9SA==
-    dependencies:
-      "@lit-labs/ssr-dom-shim" "^1.0.0"
-  
   "@nicolo-ribaudo/eslint-scope-5-internals@5.1.1-v1":
     version "5.1.1-v1"
     resolved "https://registry.npmjs.org/@nicolo-ribaudo/eslint-scope-5-internals/-/eslint-scope-5-internals-5.1.1-v1.tgz"
@@ -1717,18 +1697,6 @@ Lockfile:
     version "1.2.0"
     resolved "https://registry.npmjs.org/@rushstack/eslint-patch/-/eslint-patch-1.2.0.tgz"
     integrity sha512-sXo/qW2/pAcmT43VoRKOJbDOfV3cYpq3szSVfIThQXNt+E4DfKj361vaAt3c88U5tPUxzEswam7GW48PJqtKAg==
-  
-  "@shopify/hydrogen-react@^2023.4.0":
-    version "2023.4.0"
-    resolved "https://registry.npmjs.org/@shopify/hydrogen-react/-/hydrogen-react-2023.4.0.tgz"
-    integrity sha512-/4kiMOlhEdisBY/qACypfCmYmKtbS8/ywjo40ldTf+ZVJSniR9RXqSiKEeFD1/1bRsLctAHCZvDI9ysaIJS1Mg==
-    dependencies:
-      "@google/model-viewer" "^1.12.1"
-      "@xstate/fsm" "^2.0.0"
-      "@xstate/react" "^3.2.1"
-      graphql "^16.6.0"
-      type-fest "^3.6.0"
-      worktop "^0.7.3"
   
   "@sinclair/typebox@^0.24.1":
     version "0.24.51"
@@ -2468,19 +2436,6 @@ Lockfile:
     dependencies:
       "@webassemblyjs/ast" "1.11.5"
       "@xtuc/long" "4.2.2"
-  
-  "@xstate/fsm@^2.0.0":
-    version "2.0.0"
-    resolved "https://registry.npmjs.org/@xstate/fsm/-/fsm-2.0.0.tgz"
-    integrity sha512-p/zcvBMoU2ap5byMefLkR+AM+Eh99CU/SDEQeccgKlmFNOMDwphaRGqdk+emvel/SaGZ7Rf9sDvzAplLzLdEVQ==
-  
-  "@xstate/react@^3.2.1":
-    version "3.2.2"
-    resolved "https://registry.npmjs.org/@xstate/react/-/react-3.2.2.tgz"
-    integrity sha512-feghXWLedyq8JeL13yda3XnHPZKwYDN5HPBLykpLeuNpr9178tQd2/3d0NrH6gSd0sG5mLuLeuD+ck830fgzLQ==
-    dependencies:
-      use-isomorphic-layout-effect "^1.1.2"
-      use-sync-external-store "^1.0.0"
   
   "@xtuc/ieee754@^1.2.0":
     version "1.2.0"
@@ -4956,11 +4911,6 @@ Lockfile:
     resolved "https://registry.npmjs.org/grapheme-splitter/-/grapheme-splitter-1.0.4.tgz"
     integrity sha512-bzh50DW9kTPM00T8y4o8vQg89Di9oLJVLW/KaOGIXJWP/iqCN6WKYkbNOF04vFLJhwcpYUh9ydh/+5vpOqV4YQ==
   
-  graphql@^16.6.0:
-    version "16.6.0"
-    resolved "https://registry.npmjs.org/graphql/-/graphql-16.6.0.tgz"
-    integrity sha512-KPIBPDlW7NxrbT/eh4qPXz5FiFdL5UbaA0XUNz2Rp3Z3hqBSkbj0GVjwFDztsWVauZUWsbKHgMg++sk8UX0bkw==
-  
   gzip-size@^6.0.0:
     version "6.0.0"
     resolved "https://registry.npmjs.org/gzip-size/-/gzip-size-6.0.0.tgz"
@@ -6304,31 +6254,6 @@ Lockfile:
     version "1.2.4"
     resolved "https://registry.npmjs.org/lines-and-columns/-/lines-and-columns-1.2.4.tgz"
     integrity sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==
-  
-  lit-element@^3.3.0:
-    version "3.3.2"
-    resolved "https://registry.npmjs.org/lit-element/-/lit-element-3.3.2.tgz"
-    integrity sha512-xXAeVWKGr4/njq0rGC9dethMnYCq5hpKYrgQZYTzawt9YQhMiXfD+T1RgrdY3NamOxwq2aXlb0vOI6e29CKgVQ==
-    dependencies:
-      "@lit-labs/ssr-dom-shim" "^1.1.0"
-      "@lit/reactive-element" "^1.3.0"
-      lit-html "^2.7.0"
-  
-  lit-html@^2.7.0:
-    version "2.7.3"
-    resolved "https://registry.npmjs.org/lit-html/-/lit-html-2.7.3.tgz"
-    integrity sha512-9DyLzcn/kbRGowz2vFmSANFbRZTxYUgYYFqzie89w6GLpPUiBCDHfcdeRUV/k3Q2ueYxNjfv46yPCtKAEAPOVw==
-    dependencies:
-      "@types/trusted-types" "^2.0.2"
-  
-  lit@^2.2.3:
-    version "2.7.4"
-    resolved "https://registry.npmjs.org/lit/-/lit-2.7.4.tgz"
-    integrity sha512-cgD7xrZoYr21mbrkZIuIrj98YTMw/snJPg52deWVV4A8icLyNHI3bF70xsJeAgwTuiq5Kkd+ZR8gybSJDCPB7g==
-    dependencies:
-      "@lit/reactive-element" "^1.6.0"
-      lit-element "^3.3.0"
-      lit-html "^2.7.0"
   
   loader-runner@^4.2.0:
     version "4.3.0"
@@ -7859,7 +7784,7 @@ Lockfile:
     optionalDependencies:
       fsevents "^2.3.2"
   
-  "react@^16.8.0 || ^17.0.0 || ^18.0.0", react@^18.0.0, react@^18.2.0, "react@>= 15.4.1", "react@>= 16":
+  react@^18.0.0, react@^18.2.0, "react@>= 15.4.1", "react@>= 16":
     version "18.2.0"
     resolved "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
     integrity sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==
@@ -7954,11 +7879,6 @@ Lockfile:
       call-bind "^1.0.2"
       define-properties "^1.2.0"
       functions-have-names "^1.2.3"
-  
-  regexparam@^2.0.0:
-    version "2.0.1"
-    resolved "https://registry.npmjs.org/regexparam/-/regexparam-2.0.1.tgz"
-    integrity sha512-zRgSaYemnNYxUv+/5SeoHI0eJIgTL/A2pUtXUPLHQxUldagouJ9p+K6IbIZ/JiQuCEv2E2B1O11SjVQy3aMCkw==
   
   regexpu-core@^5.3.1:
     version "5.3.2"
@@ -8861,11 +8781,6 @@ Lockfile:
     dependencies:
       any-promise "^1.0.0"
   
-  three@^0.139.2:
-    version "0.139.2"
-    resolved "https://registry.npmjs.org/three/-/three-0.139.2.tgz"
-    integrity sha512-gV7q7QY8rogu7HLFZR9cWnOQAUedUhu2WXAnpr2kdXZP9YDKsG/0ychwQvWkZN5PlNw9mv5MoCTin6zNTXoONg==
-  
   throat@^6.0.1:
     version "6.0.2"
     resolved "https://registry.npmjs.org/throat/-/throat-6.0.2.tgz"
@@ -8993,11 +8908,6 @@ Lockfile:
     resolved "https://registry.npmjs.org/type-fest/-/type-fest-0.21.3.tgz"
     integrity sha512-t0rzBq87m3fVcduHDUFhKmyyX+9eo6WQjZvf51Ea/M0Q7+T374Jp1aUiyUl0GKxp8M/OETVHSDvmkyPgvX+X2w==
   
-  type-fest@^3.6.0:
-    version "3.10.0"
-    resolved "https://registry.npmjs.org/type-fest/-/type-fest-3.10.0.tgz"
-    integrity sha512-hmAPf1datm+gt3c2mvu0sJyhFy6lTkIGf0GzyaZWxRLnabQfPUqg6tF95RPg6sLxKI7nFLGdFxBcf2/7+GXI+A==
-  
   type-is@~1.6.18:
     version "1.6.18"
     resolved "https://registry.npmjs.org/type-is/-/type-is-1.6.18.tgz"
@@ -9022,7 +8932,7 @@ Lockfile:
     dependencies:
       is-typedarray "^1.0.0"
   
-  "typescript@^3.2.1 || ^4", "typescript@>= 2.7", "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta", typescript@>=4.7.0:
+  "typescript@^3.2.1 || ^4", "typescript@>= 2.7", "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta":
     version "4.9.5"
     resolved "https://registry.npmjs.org/typescript/-/typescript-4.9.5.tgz"
     integrity sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==
@@ -9114,16 +9024,6 @@ Lockfile:
     dependencies:
       querystringify "^2.1.1"
       requires-port "^1.0.0"
-  
-  use-isomorphic-layout-effect@^1.1.2:
-    version "1.1.2"
-    resolved "https://registry.npmjs.org/use-isomorphic-layout-effect/-/use-isomorphic-layout-effect-1.1.2.tgz"
-    integrity sha512-49L8yCO3iGT/ZF9QttjwLF/ZD9Iwto5LnH5LmEdk/6cFmXddqi2ulF0edxTwjj+7mqvpVVGQWvbXZdn32wRSHA==
-  
-  use-sync-external-store@^1.0.0:
-    version "1.2.0"
-    resolved "https://registry.npmjs.org/use-sync-external-store/-/use-sync-external-store-1.2.0.tgz"
-    integrity sha512-eEgnFxGQ1Ife9bzYs6VLi8/4X6CObHMw9Qr9tPY43iKwsPw8xE8+EFsf/2cFZ5S3esXgpWgtSCtLNS41F+sKPA==
   
   util-deprecate@^1.0.1, util-deprecate@^1.0.2, util-deprecate@~1.0.1:
     version "1.0.2"
@@ -9600,13 +9500,6 @@ Lockfile:
     dependencies:
       "@types/trusted-types" "^2.0.2"
       workbox-core "6.5.4"
-  
-  worktop@^0.7.3:
-    version "0.7.3"
-    resolved "https://registry.npmjs.org/worktop/-/worktop-0.7.3.tgz"
-    integrity sha512-WBHP1hk8pLP7ahAw13fugDWcO0SUAOiCD6DHT/bfLWoCIA/PL9u7GKdudT2nGZ8EGR1APbGCAI6ZzKG1+X+PnQ==
-    dependencies:
-      regexparam "^2.0.0"
   
   wrap-ansi@^7.0.0:
     version "7.0.0"
