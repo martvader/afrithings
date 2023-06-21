@@ -2,7 +2,7 @@ import Client from 'shopify-buy';
 
 const client  = Client.buildClient({
     domain:"018216.myshopify.com",
-    storefrontAccessToken:""c33f13df27be38d23cd9b6ff631840b5
+    storefrontAccessToken:"c33f13df27be38d23cd9b6ff631840b5"
 }) 
 
 //FETCH ALL PRODUCTS
